@@ -89,13 +89,10 @@
         <td colspan="4">総合勤務時間</td>
         <td colspan="4">累計在社時間</td>
         <td colspan="2" rowspan="2">所属長承認</td>
-        
       </tr>
       <tr>
-        
         <td colspan="4"><%= format_basic_info(@user.basic_time).to_f * @worked_sum %></td>
         <td colspan="4"><%= format("%.2f", @total_working_times.to_f) %></td>
-        
       </tr>
     </tfoot>
   </table>
