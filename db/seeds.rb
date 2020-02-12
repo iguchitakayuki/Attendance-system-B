@@ -8,7 +8,7 @@
 # coding: utf-8
 
 User.create!(name: "Sample User",
-             email: "sample/user@email.com",
+             email: "admin-user@email.com",
              password: "password",
              password_confirmation: "password",
              admin: true)
