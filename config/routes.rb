@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   
   resources :users do
     member do
-      get 'seach'
+      get 'search'
       get 'edit_basic_top'
       get 'edit_basic_info'
       patch 'update_basic_info'
