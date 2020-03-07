@@ -53,6 +53,14 @@ class AttendancesController < ApplicationController
     
   end
   
+  # 残業申請モーダル
+  def edit_overtime_app
+  end 
+  
+  def update_over_app
+  end 
+  
+  
   private
     # 1ヶ月分の勤怠情報を扱います。
     def attendances_params
